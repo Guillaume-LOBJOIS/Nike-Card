@@ -1,0 +1,139 @@
+body{
+    margin:0px;
+}
+.container{
+    width:100%;
+    height:58.55em;
+    background-color:#131313;
+}
+.card{
+    width:20%;
+    height:40em;
+    background-color: #232323;
+    margin:15vh 40vw;
+    position: fixed;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+.circle{
+    background-color: #11706C;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    clip-path: circle(220px at 80% 20%);
+    position: absolute;
+    z-index: 1;
+}
+.textBackground{
+    margin:0 -20px;
+    font-size: 180px;
+    top:1.5em;
+    position: absolute;
+    z-index: 0;
+    color:rgba(255,255,255,0.04);
+    font-style: italic;
+}
+.imgShoes{
+    transition: 1s;
+    width: 90%;
+    height: 170px;
+    top: 40%;
+    left: 5%;
+    position:absolute;
+    transform: rotate(-25deg);
+    z-index: 2;
+}
+.nikeTitle{
+    position: absolute;
+    color:white;
+    top:80%;
+    left:30%;
+    transition: 1s;
+}
+.sizeText{
+    position: absolute;
+    color:white;
+    font-size: 30px;
+    left: -90%;
+}
+.colorText{
+    position: absolute;
+    color:white;
+    font-size: 30px;
+    top:-65%;
+    left:-32.5%;
+}
+.divSize{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top:120%;
+    left:40%;
+    color:black;
+    font-size: 25px;
+    transition: 1s;
+}
+.sizeValue:hover{
+    background-color:#11706C;
+    transition: 0.5s;
+}
+.sizeValue{
+    margin-right: 20%;
+    padding: 7px 7px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.divColor{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top:120%;
+    left:40%;
+    color:white;
+    width: 100%;
+    transition:1s
+}
+.colorCircle0{
+    width:40px;
+    height:40px;
+    background-color: #2d3436;
+    border-radius: 10px;
+    margin-right: 7.5%;
+    cursor: pointer;
+}
+.colorCircle1{
+    width:40px;
+    height:40px;
+    background-color: #b2bec3;
+    border-radius: 10px;
+    margin-right: 7.5%;
+    cursor: pointer;
+}
+.colorCircle2{
+    width:40px;
+    height:40px;
+    background-color: #6c5ce7;
+    border-radius: 10px;
+    margin-right: 7.5%;
+    cursor: pointer;
+}
+.buyButton:hover{
+    background-color: #11706C;
+    color:#222f3e;
+    transition: 0.5s;
+}
+.buyButton{
+    position: absolute;
+    top:250%;
+    left:40%;
+    border: none;
+    cursor:pointer;
+    outline:none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1.4s;
+    font-size: 20px;
+}
